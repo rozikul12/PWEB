@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Menu Kiri -->
+        <div class="col-md-3">
+            <h3>Menu</h3>
+            <ul class="list-group">
+                <a href="beranda.html" class="list-group-item">Beranda</a>
+                <a href="jadwal kuliah.html" class="list-group-item">Jadwal Kuliah</a>
+                <a href="biodata.html" class="list-group-item">Biodata</a>
+            </ul>
+        </div>
+<!-- Konten Biodata -->
+        <div class="col-md-9">
+            <h1>Biodata</h1>
+            <section class="mt-4">
+                <h4>Nama</h4>
+                <p>Mohammad Rozikul maulidun</p>
+            </section>
+            <section class="mt-4">
+                <h4>Alamat</h4>
+                <p>Pati, Tayu kec. Cluwak</p>
+            </section>
+            <section class="mt-4">
+                <h4>Pendidikan</h4>
+                <p>SMK Tunas Harapan
