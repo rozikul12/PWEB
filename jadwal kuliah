@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jadwal Kuliah</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Menu Kiri -->
+        <div class="col-md-3">
+            <h3>Menu</h3>
+            <ul class="list-group">
+                <a href="beranda.html" class="list-group-item">Beranda</a>
+                <a href="jadwal.html" class="list-group-item">Jadwal Kuliah</a>
+                <a href="biodata.html" class="list-group-item">Biodata</a>
+            </ul>
+        </div>
+ <!-- Konten Jadwal Kuliah -->
+        <div class="col-md-9">
+            <h1>Jadwal Kuliah</h1>
+            <div class="table-responsive mt-4">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Hari</th>
+                            <th>Jam</th>
+                            <th>Mata Kuliah</th>
+                            <th>Ruang</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Senin</td>
+                            <td>08.00 - 10.00</td>
+                            <td>Pemrograman Web</td>
+                            <td>301</td>
+                        </tr>
+                        <tr>
+<td>Rabu</td>
+                            <td>10.00 - 12.00</td>
+                            <td>Basis Data</td>
+                            <td>203</td>
+                        </tr>
+                        <tr>
+                            <td>Jumat</td>
+                            <td>13.00 - 15.00</td>
+                            <td>Statistika</td>
+                            <td>102</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu -->
+<div class="container mt-4">
+    <a href="beranda.html" class="btn btn-primary mr-2">Beranda</a>
+    <a href="jadwal kuliah.html" class="btn btn-primary mr-2">Jadwal Kuliah</a>
+    <a href="biodata.html" class="btn btn-primary">Biodata</a>
+</div>
+
+</body>
+</html>
