@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beranda</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Menu Kiri -->
+        <div class="col-md-3">
+            <h3>Menu</h3>
+            <ul class="list-group">
+                <a href="beranda.html" class="list-group-item">Beranda</a>
+                <a href="jadwal kuliah.html" class="list-group-item">Jadwal Kuliah</a>
+                <a href="biodata.html" class="list-group-item">Biodata</a>
+            </ul>
+        </div>
+
+<!-- Konten Beranda -->
+        <div class="col-md-9">
+            <h1>Beranda</h1>
+            <section class="mt-4">
+                <h2>Sejarah Singkat</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus est eget eros fermentum, eu bibendum purus lacinia. Vivamus a semper quam, eu vehicula ligula. In at ullamcorper velit. Maecenas nec sem eu nulla dapibus consequat. Donec quis sodales magna. Proin feugiat neque quis sem congue ullamcorper. Curabitur id commodo nisi.</p>
+            </section>
+            <section class="mt-4">
+                <h2>Visi dan Misi</h2>
+                <p>Visi: Menjadi universitas yang berstandar internasional dalam bidang pendidikan dan penelitian.</p>
+                <p>Misi: Memberikan pendidikan berkualitas dan menghasilkan lulusan yang kompeten dalam bidangnya.</p>
+            </section>
+            <section class="mt-4">
+                <h2>Fasilitas</h2>
+                <p>Universitas kami dilengkapi dengan berbagai fasilitas seperti laboratorium, perpustakaan, dan gedung kuliah yang nyaman.</p>                                                                  </section>
+        </div>
+    </div>
+</div>
+
+<!-- Menu -->
+<div class="container mt-4">
+    <a href="beranda.html" class="btn btn-primary mr-2">Beranda</a>
+    <a href="jadwal.html" class="btn btn-primary mr-2">Jadwal Kuliah</a>
+    <a href="biodata.html" class="btn btn-primary">Biodata</a>
+</div>
+
+</body>
+</html>
